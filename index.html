@@ -69,23 +69,27 @@
                 </div>
                 <div class="grid grid-cols-1 items-end gap-8 md:grid-cols-2 lg:grid-cols-4">
                     <div class="relative overflow-hidden rounded-2xl border border-black/5 bg-white shadow-xl md:translate-y-12">
-                        <div class="snact-preview-panel--1 aspect-[9/19] w-full bg-cover bg-center" role="img" aria-label="App screenshot placeholder: simple mobile interface">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" aria-hidden="true"></div>
+                        <div class="relative aspect-[9/19] w-full overflow-hidden">
+                            <img src="assets/images/snact-app-1.png" alt="Snact app welcome screen" class="h-full w-full object-cover object-top" width="390" height="844" loading="lazy" decoding="async">
+                            <div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40" aria-hidden="true"></div>
                         </div>
                     </div>
                     <div class="relative z-10 overflow-hidden rounded-2xl border-4 border-white bg-white shadow-2xl">
-                        <div class="snact-preview-panel--2 aspect-[9/19] w-full bg-cover bg-center" role="img" aria-label="App screenshot placeholder: list view">
-                            <div class="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40" aria-hidden="true"></div>
+                        <div class="relative aspect-[9/19] w-full overflow-hidden">
+                            <img src="assets/images/snact-app-2.png" alt="Snact app welcome screen" class="h-full w-full object-cover object-top" width="390" height="844" loading="lazy" decoding="async">
+                            <div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40" aria-hidden="true"></div>
                         </div>
                     </div>
                     <div class="relative overflow-hidden rounded-2xl border border-black/5 bg-white shadow-xl md:translate-y-12">
-                        <div class="snact-preview-panel--3 aspect-[9/19] w-full bg-cover bg-center" role="img" aria-label="App screenshot placeholder: reminder detail">
-                            <div class="absolute inset-0 bg-black/10" aria-hidden="true"></div>
+                        <div class="relative aspect-[9/19] w-full overflow-hidden">
+                            <img src="assets/images/snact-app-3.png" alt="Snact app welcome screen" class="h-full w-full object-cover object-top" width="390" height="844" loading="lazy" decoding="async">
+                            <div class="pointer-events-none absolute inset-0 bg-black/10" aria-hidden="true"></div>
                         </div>
                     </div>
                     <div class="relative overflow-hidden rounded-2xl border border-black/5 bg-white shadow-xl md:translate-y-12">
-                        <div class="snact-preview-panel--4 aspect-[9/19] w-full bg-cover bg-center" role="img" aria-label="App screenshot placeholder: additional feature">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" aria-hidden="true"></div>
+                        <div class="relative aspect-[9/19] w-full overflow-hidden">
+                            <img src="assets/images/snact-app-4.png" alt="Snact app welcome screen" class="h-full w-full object-cover object-top" width="390" height="844" loading="lazy" decoding="async">
+                            <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" aria-hidden="true"></div>
                         </div>
                     </div>
                 </div>
@@ -102,10 +106,9 @@
                             <span class="material-symbols-outlined" aria-hidden="true">screenshot</span>
                         </div>
                         <div>
-                            <h3 class="mb-2 text-xl font-bold text-text-main">Remind from Screenshots</h3>
-                            <p class="leading-relaxed text-text-secondary">
-                                Save a screenshot — Snact reminds you later with the context intact.
-                            </p>
+                            <h3 class="mb-3 text-xl font-bold text-text-main">Remind from Screenshots</h3>
+                            <p class="mb-3 leading-relaxed text-text-secondary">Save a screenshot — Snact reminds you later with context intact.</p>
+                            <p class="leading-relaxed text-text-secondary">The screenshot itself becomes the reminder, so you never forget why you saved it.</p>
                         </div>
                     </article>
                     <article class="group flex flex-col items-start gap-4 rounded-2xl bg-background-cream p-6 transition-colors hover:bg-orange-50">
@@ -113,10 +116,9 @@
                             <span class="material-symbols-outlined" aria-hidden="true">mic</span>
                         </div>
                         <div>
-                            <h3 class="mb-2 text-xl font-bold text-text-main">Voice Note Reminders</h3>
-                            <p class="leading-relaxed text-text-secondary">
-                                Record a quick voice note and let Snact remind you when it matters.
-                            </p>
+                            <h3 class="mb-3 text-xl font-bold text-text-main">Voice Note Reminders</h3>
+                            <p class="mb-3 leading-relaxed text-text-secondary">Record a quick voice note and let Snact remind you when it matters.</p>
+                            <p class="leading-relaxed text-text-secondary">Perfect for capturing ideas, tasks, or things you need to remember later.</p>
                         </div>
                     </article>
                     <article class="group flex flex-col items-start gap-4 rounded-2xl bg-background-cream p-6 transition-colors hover:bg-orange-50">
@@ -124,10 +126,39 @@
                             <span class="material-symbols-outlined" aria-hidden="true">image</span>
                         </div>
                         <div>
-                            <h3 class="mb-2 text-xl font-bold text-text-main">Snaps &amp; Images</h3>
-                            <p class="leading-relaxed text-text-secondary">
-                                Photos, snaps, or saved visuals — reminders don’t have to be text anymore.
-                            </p>
+                            <h3 class="mb-3 text-xl font-bold text-text-main">Snaps &amp; Images</h3>
+                            <p class="mb-3 leading-relaxed text-text-secondary">Photos, snaps, or saved visuals — reminders aren't limited to text.</p>
+                            <p class="leading-relaxed text-text-secondary">Anything visual can instantly become a reminder.</p>
+                        </div>
+                    </article>
+                    <article class="group flex flex-col items-start gap-4 rounded-2xl bg-background-cream p-6 transition-colors hover:bg-orange-50">
+                        <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-white shadow-md transition-transform group-hover:scale-110">
+                            <span class="material-symbols-outlined" aria-hidden="true">document_scanner</span>
+                        </div>
+                        <div>
+                            <h3 class="mb-3 text-xl font-bold text-text-main">Smart OCR</h3>
+                            <p class="mb-3 leading-relaxed text-text-secondary">Snact reads text inside screenshots automatically.</p>
+                            <p class="leading-relaxed text-text-secondary">Extract links, numbers, or important information without typing.</p>
+                        </div>
+                    </article>
+                    <article class="group flex flex-col items-start gap-4 rounded-2xl bg-background-cream p-6 transition-colors hover:bg-orange-50">
+                        <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-white shadow-md transition-transform group-hover:scale-110">
+                            <span class="material-symbols-outlined" aria-hidden="true">edit_note</span>
+                        </div>
+                        <div>
+                            <h3 class="mb-3 text-xl font-bold text-text-main">Edit Before Reminder</h3>
+                            <p class="mb-3 leading-relaxed text-text-secondary">Add a quick note or adjust the reminder before saving.</p>
+                            <p class="leading-relaxed text-text-secondary">A little context now makes the reminder more useful later.</p>
+                        </div>
+                    </article>
+                    <article class="group flex flex-col items-start gap-4 rounded-2xl bg-background-cream p-6 transition-colors hover:bg-orange-50">
+                        <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-white shadow-md transition-transform group-hover:scale-110">
+                            <span class="material-symbols-outlined" aria-hidden="true">share</span>
+                        </div>
+                        <div>
+                            <h3 class="mb-3 text-xl font-bold text-text-main">Share Instantly</h3>
+                            <p class="mb-3 leading-relaxed text-text-secondary">Share captured reminders with friends or teammates.</p>
+                            <p class="leading-relaxed text-text-secondary">Send useful information without needing to rewrite anything.</p>
                         </div>
                     </article>
                     <article class="group flex flex-col items-start gap-4 rounded-2xl bg-background-cream p-6 transition-colors hover:bg-orange-50">
@@ -135,11 +166,19 @@
                             <span class="material-symbols-outlined" aria-hidden="true">bolt</span>
                         </div>
                         <div>
-                            <h3 class="mb-2 text-xl font-bold text-text-main">Zero Friction</h3>
-                            <p class="leading-relaxed text-text-secondary">
-                                No forms. No typing pressure.<br>
-                                <strong class="font-bold text-text-main">Save → Set Time → Done.</strong>
-                            </p>
+                            <h3 class="mb-3 text-xl font-bold text-text-main">Zero Friction</h3>
+                            <p class="mb-3 leading-relaxed text-text-secondary">No long forms. No typing pressure. Save → Set time → Done.</p>
+                            <p class="leading-relaxed text-text-secondary">Snact is built to capture moments quickly without slowing you down.</p>
+                        </div>
+                    </article>
+                    <article class="group flex flex-col items-start gap-4 rounded-2xl bg-background-cream p-6 transition-colors hover:bg-orange-50">
+                        <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-white shadow-md transition-transform group-hover:scale-110">
+                            <span class="material-symbols-outlined" aria-hidden="true">layers</span>
+                        </div>
+                        <div>
+                            <h3 class="mb-3 text-xl font-bold text-text-main">Context Preserved</h3>
+                            <p class="mb-3 leading-relaxed text-text-secondary">Your screenshot, image, or voice note stays with the reminder.</p>
+                            <p class="leading-relaxed text-text-secondary">So when the reminder appears, you immediately know why it matters.</p>
                         </div>
                     </article>
                 </div>
@@ -151,11 +190,11 @@
                 <div class="absolute -bottom-20 -right-20 size-80 rounded-full bg-primary opacity-10 blur-3xl" aria-hidden="true"></div>
                 <div class="relative z-10 flex flex-col items-center">
                     <h2 id="cta-heading" class="mb-4 text-3xl font-black md:text-5xl">
-                        <span class="block">Don't Just Save It.</span>
-                        <span class="block">Remember It.</span>
+                        <span class="block">Never Forget What Matters</span>
+                        <!-- <span class="block">Remember It.</span> -->
                     </h2>
                     <p class="mb-8 max-w-lg text-lg text-white/80">
-                        Screenshots, snaps, and voice notes are meant to be remembered — not forgotten.
+                        Screenshots, snaps, and voice notes are meant to be remembered and acted upon — not forgotten.
                     </p>
                     <a href="https://play.google.com/store" class="flex h-14 min-w-[200px] items-center justify-center gap-2 rounded-xl bg-primary px-8 text-lg font-bold text-white shadow-xl shadow-primary/30 transition-all hover:scale-105 hover:bg-orange-600 active:scale-95" target="_blank" rel="noopener noreferrer">
                         <span class="material-symbols-outlined" aria-hidden="true">download</span>
