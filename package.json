@@ -1,0 +1,27 @@
+{
+  "name": "snact-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "firebase": "firebase",
+    "deploy": "firebase deploy --only hosting",
+    "serve": "firebase serve --only hosting",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaaryanUX/snact-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VaaryanUX/snact-web/issues"
+  },
+  "homepage": "https://github.com/VaaryanUX/snact-web#readme",
+  "devDependencies": {
+    "firebase-tools": "^15.15.0"
+  }
+}
